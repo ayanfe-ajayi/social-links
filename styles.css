@@ -9,9 +9,10 @@ html {
 }
 
 body {
+    overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 98%;
     height: 100vh;
     background-color: hsl(0, 0%, 8%);
