@@ -11,8 +11,9 @@ html {
 body {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 98%;
+    height: 100vh;
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
     font-size: 14px;
@@ -20,7 +21,6 @@ body {
 
 .container {
     background-color: hsl(0, 0%, 12%);
-    margin: 60px auto;
     width: 40%;
     max-width: 400px;
     border-radius: 10px;
